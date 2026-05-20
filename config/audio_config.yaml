@@ -1,0 +1,9 @@
+audio:
+  sample_rate: 16000
+  duration_seconds: 1.0
+  num_mfcc: 40                # Number of Mel bands / height of feature map
+  time_steps: 50              # Width of feature map after windowing
+training:
+  batch_size: 32
+  learning_rate: 0.001
+  epochs: 8
